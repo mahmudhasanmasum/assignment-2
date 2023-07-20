@@ -1,0 +1,61 @@
+
+
+@media only screen and (max-width: 1782px){
+    .play-Instantly{
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .online-active-img{
+        background-color: red;
+        padding: 10px;
+    }
+
+    .online-active-image-text{
+        font-size: small;
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .online-active-image-text img{
+        height: 55px;
+    }
+
+    .hero-arya-img img{
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 1400px){
+    .play-Instantly{
+        justify-content: center;
+    }
+    .hero-arya{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-arya-content{
+        order: 2;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        display: flex;
+        margin: 100px;
+    }
+
+    .hero-arya-content-wrapper{
+        width: 50%;
+    }
+
+    .hero-arya-img{
+        order: 1;
+        justify-content: center;
+        display: flex;
+        padding: 0;
+    }
+}
+
