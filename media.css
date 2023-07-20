@@ -1,0 +1,117 @@
+@media only screen and (max-width: 900px){
+
+    .play-Instantly{
+        display: grid;
+        align-items: center;
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .play-Instantly-text{
+        font-size: small;
+    }
+
+    .play-Instantly-title{
+        font-size: small;
+    }
+
+
+    
+    .horseMan{
+        height: 280px;
+    }
+    
+    .girlCat{
+        height: 200px;
+    }
+
+    .online-active-img {
+        padding: 10px ;
+        font-size: small;
+
+    }
+
+    .online-active-image-text{
+        padding: 0 10px;
+        margin: 0;
+    }
+    .online-active-image-text img{
+        height: 40px;
+        width: 40px;
+        padding: 0;
+        border: 5px solid #fff;
+    }
+
+
+    .header-bg{
+        padding: 0 10% !important;
+        order: 1;
+    }
+
+    .header-text{
+        order: 2;
+    }
+    
+
+    .topBar{
+        justify-content: center;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .logoBox{
+        padding: 20px 0;
+    }
+    .nav{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .linkWrapper{
+        flex-direction: column;
+    }
+
+    .linkWrapper a{
+        margin-bottom: 20px;
+    }
+    
+
+    .header{
+        grid-template-columns: 1fr;
+    }
+
+    /* .headerBgSvg{
+        width: 300px;
+        top: 0;
+    } */
+
+
+    .goat{
+        font-size: 2.5rem;
+    }
+
+    .playLikeThe{
+        font-size: 1.5rem !important;
+    }
+
+    .header-point span{
+        font-size: 1rem !important;
+    }
+
+    .header-buttons button{
+        padding: 10px 15px;
+        margin: 5px !important;
+        font-size: small;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1237px){
+    .header-buttons button{
+        margin: 10px;
+    }
+
+}
