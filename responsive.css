@@ -48,7 +48,8 @@
     }
 
     .hero-arya-content-wrapper{
-        width: 50%;
+        width: 100%;
+        padding: 20px;
     }
 
     .hero-arya-img{
