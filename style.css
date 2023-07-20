@@ -45,12 +45,16 @@ header{
 
 .btn-test{
     padding: 9px 25px;
-    background-color: #FF42A5;
     border: none;
-    border-radius: 50px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     margin-left: 50px;
+
+}
+.btn-test i{
+    padding: 5px 10px;
 
 }
 
